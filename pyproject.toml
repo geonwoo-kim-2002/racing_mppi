@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[project]
+name = "racing_mppi"
+version = "0.0.0"
+description = ""
+requires-python = ">=3.10"
+dependencies = [
+    "pandas==2.2.2",
+    "matplotlib==3.8.2",
+    "numpy==1.26.2",
+    "torch>=2.00",
+    #"gymnasium[all]==0.29.1",
+    #"mujoco==2.3.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pysen",
+    "black",
+    "flake8",
+    "isort",
+    "mypy",
+]

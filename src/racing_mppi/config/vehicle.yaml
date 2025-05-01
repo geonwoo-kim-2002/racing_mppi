@@ -1,0 +1,26 @@
+/**:
+  ros__parameters:
+    mass: 3.74
+    moment_of_inertia: 0.04712
+    lf: 0.15875
+    lr: 0.17145
+
+    C_Sf: 4.718
+    C_Sr: 5.4562
+
+    mu: 1.0489
+
+    min_speed: -5.0
+    max_speed: 20.0
+
+    min_accel: -9.51
+    max_accel: 9.51
+
+    min_steer: -0.4189
+    max_steer: 0.4189
+
+    min_daccel: -5.0
+    max_daccel: 5.0
+
+    min_dsteer: -3.2
+    max_dsteer: 3.2

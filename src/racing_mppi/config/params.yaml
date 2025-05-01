@@ -1,0 +1,12 @@
+/**:
+  ros__parameters:
+    map_name: 'Austin'
+
+    drive_topic: '/drive'
+    odom_topic: '/ego_racecar/odom'
+
+    debug: True
+
+    drive_frequency: 30.0
+
+    model: "st"     # st  km
